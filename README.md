@@ -2,6 +2,7 @@
 
 A simple React-based product listing application with pagination support using the DummyJSON API.
 
+This project is deployed on https://react-paginate-products.netlify.app/ . 
 
 ## 🚀 Features
 
