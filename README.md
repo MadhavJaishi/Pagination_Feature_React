@@ -1,41 +1,32 @@
-🛒 Product Pagination App
-
+# 🛒 Product Pagination App
 A simple React-based product listing application with pagination support using the DummyJSON API.
 
-🚀 Features
+## 🚀 Features
+✅ Fetches product data from an API dynamically
+✅ Implements pagination for smooth navigation
+✅ Responsive and visually appealing UI
+✅ Optimized state management using React hooks
+✅ Uses React, Fetch API, and CSS for styling
 
-✅ Fetches product data from an API dynamically✅ Implements pagination for smooth navigation✅ Responsive and visually appealing UI✅ Optimized state management using React hooks✅ Uses React, Fetch API, and CSS for styling
-
-
-🛠 Tech Stack
-
+## 🛠 Tech Stack
 Frontend: React, CSS
-
 Backend API: DummyJSON
 
-📥 Installation
-
+## 📥 Installation
 Clone the repository and install dependencies:
-
 # Clone the repo
 git clone https://github.com/your-username/product-pagination-app.git
-
 # Navigate to the project folder
 cd product-pagination-app
-
 # Install dependencies
 npm install
 
-▶️ Usage
-
+## ▶️ Usage
 Start the development server:
-
 npm start
-
 Open your browser and visit: http://localhost:3000
 
-📌 Project Structure
-
+## 📌 Project Structure
 product-pagination-app/
 │-- src/
 │   │-- components/
@@ -47,12 +38,7 @@ product-pagination-app/
 │-- package.json
 │-- README.md
 
-🤝 Contributing
-
+## 🤝 Contributing
 Contributions are welcome! Feel free to fork this repository and submit pull requests.
 
-📜 License
-
-This project is licensed under the MIT License.
-
-💡 Enjoy coding! Made with ❤️ by Your Name
+💡 Enjoy coding! Made with ❤️ by Madhav
