@@ -1,0 +1,65 @@
+.productCard {
+    border: 1px solid black;
+    width: 210px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is spaced out */
+    align-items: center;
+    text-align: center;
+    min-height: 250px; /* Adjust based on content */
+    padding-bottom: 40px; /* Space for priceTag */
+    margin: 5px;
+}
+
+.imgComp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid brown;
+}
+
+.textComp {
+    padding: 5px;
+    flex-grow: 1; /* Allows content to push priceTag to the bottom */
+}
+
+h1 {
+    font-size: medium;
+    color:crimson;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: small;
+    overflow-wrap: break-word;
+}
+
+.priceTag {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: beige;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+}
+@media (max-width: 1024px) { /* Medium screens: 3 items per row */
+    .productCard {
+        width: calc(33.33% - 20px);
+    }
+}
+
+@media (max-width: 768px) { /* Tablets: 2 items per row */
+    .productCard {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) { /* Mobile: 1 item per row */
+    .productCard {
+        width: calc(100% - 20px);
+    }
+}

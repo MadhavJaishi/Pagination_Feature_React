@@ -1,0 +1,17 @@
+.productList {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 0 0 25px;
+  margin-bottom: 80px;
+}
+.pageContainer {
+  margin: 20px;
+}
+.pageNumber {
+  border: 1px solid black;
+  padding: 4px;
+  margin: 2px;
+  font-size: 20px;
+  cursor: pointer;
+}
