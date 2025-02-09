@@ -12,20 +12,6 @@ A simple React-based product listing application with pagination support using t
 Frontend: React, CSS
 Backend API: DummyJSON
 
-## 📥 Installation
-Clone the repository and install dependencies:
-# Clone the repo
-git clone https://github.com/your-username/product-pagination-app.git
-# Navigate to the project folder
-cd product-pagination-app
-# Install dependencies
-npm install
-
-## ▶️ Usage
-Start the development server:
-npm start
-Open your browser and visit: http://localhost:3000
-
 ## 📌 Project Structure
 product-pagination-app/
 │-- src/
